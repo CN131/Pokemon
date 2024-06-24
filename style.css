@@ -1,0 +1,48 @@
+body {
+    background-color: #5D7396;
+}
+
+#answerButton {
+    visibility: hidden;
+}
+
+#picture {
+    width: 300px;
+    height: 300px;
+    visibility: hidden;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#answer {
+    color: red;
+    font-size: 70px;
+    font-weight: bold
+}
+
+#info {
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold
+}
+
+#names {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    color: darkorange;
+}
+
+#scores {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+input[type=number] {
+    width: 50px;
+}

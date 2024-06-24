@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Who's That Pokemon?</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="names">
+            <label for="Player 1">Player 1</label>
+            <label for="Player 2">Player 2</label>
+            <label for="Player 3">Player 3</label>
+            <label for="Player 4">Player 4</label>
+        </div>
+        <div id="scores">
+            <input size="10" type="number">
+            <input type="number">
+            <input type="number">
+            <input type="number">
+        </div>
+        
+        <button class="center" id="myButton" type="button" onclick="getPokemon()">WHO'S THAT POKEMON!?</button> <br>
+        <img class="center" id="picture" src="" alt="random pokemon"><br>
+        <button class="center" id="answerButton" type="button" onclick="showAnswer()">Answer</button><br>
+        <p class="center" id="answer"></p>
+        <p class="center" id="info"></p>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
